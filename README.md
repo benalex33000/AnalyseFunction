@@ -13,6 +13,7 @@ Installation done !
 Pour l'utiliser : 
 
 analyse <la fonction à trouver> <les_fichiers>
+
 Exemples :
 
 analyse printf main.c lib.c
