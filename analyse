@@ -1,0 +1,21 @@
+#!/bin/bash
+if [ -z $1 ] ; then
+    echo "analyse <la fonction à trouver> <les_fichiers>"
+    echo "Exemples :"
+    echo "analyse printf main.c lib.c"
+    echo "analyse printf *.c"
+elif [ -z $2 ] ; then
+    echo "analyse <la fonction à trouver> <les_fichiers>"
+    echo "Exemples :"
+    echo "analyse printf main.c lib.c"
+    echo "analyse printf *.c"
+elif grep -q -i "$1" "${@:2}" ; then
+    echo "======================================="
+    echo "Nous avons trouvé un / des occurence(s)"
+    grep -n -i "$1" "${@:2}"
+    echo "======================================="
+else
+    echo "======================================="
+    echo "Nous n'avons pas trouvé le mot : $1 dans les fichiers sélectionner"
+    echo "======================================="
+fi
