@@ -11,7 +11,7 @@ elif [ -z $2 ] ; then
     echo "analyse printf *.c"
 elif grep -q -i "$1" "${@:2}" ; then
     echo "======================================="
-    echo "Nous avons trouvé un / des occurence(s)"
+    echo "Nous avons trouvé une / des occurence(s)"
     grep -n -i "$1" "${@:2}"
     echo "======================================="
 else
