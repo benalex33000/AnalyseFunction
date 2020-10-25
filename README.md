@@ -1,5 +1,5 @@
 # AnalyseFunction
-Un programme pour analyser les fonctions présent dans les fichiers et éviter les -42 !!!                                                                            
+Un programme pour analyser les fonctions présent dans les fichiers et éviter les -42 #Epitech !!!                                                                            
 pour l'installer : 
 
 git clone https://github.com/benalex33000/AnalyseFunction.git
