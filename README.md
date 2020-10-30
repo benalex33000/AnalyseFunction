@@ -4,6 +4,8 @@ pour l'installer :
 
 git clone https://github.com/benalex33000/AnalyseFunction.git
 
+cd AnalyseFunction/
+
 chmod +x build.sh
 
 ./build.sh
